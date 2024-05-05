@@ -20,7 +20,7 @@ billBox.addEventListener("change", runTheRegister);
 
 // Function to reset the values in the web page
 function zeroTheRegister() {
-	changeBox.value = 0;
+  changeBox.value = 0;
 	document.getElementById("bill20").innerHTML = 0;
 	document.getElementById("bill10").innerHTML = 0;
 	document.getElementById("bill5").innerHTML = 0;
